@@ -1,0 +1,22 @@
+{
+  "name": "elecstore",
+  "version": "1.0.0",
+  "description": "Landing pag",
+  "homepage": "http://alexprice91.github.io/elecstore",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Alex Price",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.1"
+  }
+}

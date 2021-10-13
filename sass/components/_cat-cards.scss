@@ -1,0 +1,24 @@
+.cat {
+
+    &__image {
+
+      &--1 {
+        background-image: url(../img/light.png); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 370px;
+      }
+
+      &--2 {
+        background-image: url(../img/Switch.png); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 370px;
+    }
+
+ }
+}

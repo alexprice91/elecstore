@@ -1,0 +1,42 @@
+.featured-2 {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 10px;
+
+    &__text {
+        margin-top: 4em;
+    }
+
+    &__heading {
+        display: block;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #80B5FE
+    }
+
+    &__heading-2 {
+        display: block;
+        font-size: 50px;
+        font-weight: 300;
+    }
+
+    &__link {
+        color: black;
+
+        &:hover {
+            color: $color-grey-dark;
+        }
+
+    }
+
+    &__instagram {
+        transition: all .3s;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

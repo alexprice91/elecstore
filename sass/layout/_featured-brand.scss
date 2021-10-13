@@ -1,0 +1,21 @@
+.featured-brand {
+    height: 100%;
+    background-image: url(../img/brand-background.png);
+    background-size: cover;
+
+    &__card {
+        transition: all .2s;
+
+        &:hover {
+            transform: scale(1.03);
+        }
+    }
+
+
+}
+
+.container-endless {
+    width: 30em;
+    overflow-x: auto;
+    white-space: nowrap;
+}
