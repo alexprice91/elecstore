@@ -30,7 +30,7 @@
 *::after,
 *::before {
   margin: 0px;
-  padding: 0px;
+  padding: 3px;
   box-sizing: inherit; }
 
 body {
@@ -351,9 +351,6 @@ body {
   overflow-x: auto;
   white-space: nowrap; }
 
-.product body {
-  background-color: #ecedee; }
-
 .product .card {
   border: none;
   overflow: hidden; }
@@ -501,4 +498,19 @@ body {
   top: 22px; }
 
 .category-header {
-  height: 40%; }
+  height: 100%;
+  background-color: #FBE9D8; }
+
+.holder {
+  display: inline-block;
+  transition: all .3s; }
+  .holder:hover {
+    transform: scale(1.4); }
+
+.main-product-listing {
+  height: 100%; }
+  .main-product-listing__sidebar {
+    height: 100%;
+    background-color: blanchedalmond; }
+  .main-product-listing__products {
+    height: 100%; }

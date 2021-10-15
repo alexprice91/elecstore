@@ -1,3 +1,29 @@
 .category-header {
-    height: 40%;
+    height: 100%;
+    background-color: #FBE9D8;
+}
+
+.holder {
+    display: inline-block;
+    transition: all .3s;
+
+
+    &:hover {
+        transform: scale(1.4)
+    }
+
+}
+
+.main-product-listing {
+    height: 100%;
+    
+    &__sidebar {
+        height: 100%;
+        background-color: blanchedalmond;
+    }
+
+    &__products {
+        height: 100%;
+    }
+
 }
